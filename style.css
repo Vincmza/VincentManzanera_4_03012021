@@ -17,7 +17,9 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
+.links a:hover {
+    color:#6bb5d7;
+}
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -133,7 +135,10 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    /*color: rgba(255, 255, 255, .6);*/
+    color:white;
+    transform: scale(1);
+    transition:400ms;
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +155,11 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    /*color: rgba(255, 255, 255, 1);*/
+    transform:scale(1.4);
+    /*color:#95cae3;*/
+    color:#6bb5d7;
+
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -277,10 +286,39 @@ a:hover {
     margin-left: 0;
 }
 
+.intro_sentence {
+    font-size: 1.5em;
+    padding: 0px 30px;
+}
+.intro_citation {
+    font-size: 0.9em;
+}
+.intro_citation-signature {
+    font-size: 0.8em;
+}
+.intro_performance {
+    font-size: 1.5em;
+}
+.text-center {
+    font-size: 1.2em;
+    color:#484a4a;
+}
 .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
+}
+.tc-white--sm-12 {
+    color:#bfdfee;
+    font-size:2em;
+}
+.tc-white--sm-12-p {
+    color:#dfeff6;
+    font-size: 1.5em;
+}
+.col-sm-6 p {
+    color:black;
+    font-size: 1em;
 }
 
 #bloc-1-hero h1 {
@@ -477,6 +515,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    color:white;
 }
 
 .icon-lg {
@@ -516,7 +555,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    /*opacity: 0;*/
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -527,7 +566,7 @@ button {
 
 .showScrollTop {
     font-size: 14px;
-    opacity: 1;
+    /*opacity: 1;*/
 }
 
 a[data-lightbox] {
@@ -555,7 +594,7 @@ a[data-lightbox]:hover::before {
 }
 
 a[data-lightbox]:hover img {
-    opacity: 0.6;
+   /* opacity: 0.6;*/
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
 }
@@ -597,13 +636,13 @@ a[data-lightbox]:hover img {
     border: none;
     line-height: 30px;
     padding: 0 9px 5px;
-    opacity: 0.3;
+   /* opacity: 0.3;*/
 }
 
 .close-lightbox:hover,
 .next-lightbox:hover,
 .prev-lightbox:hover {
-    opacity: 1.0;
+    /*opacity: 1.0;*/
     color: #FFF;
 }
 
@@ -616,7 +655,7 @@ a[data-lightbox]:hover img {
     position: absolute;
     top: 45%;
     z-index: 1;
-    opacity: 0.4;
+    /*opacity: 0.4;*/
 }
 
 .next-lightbox {
@@ -639,7 +678,7 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
+/*h1,
 h2,
 h3,
 h4,
@@ -647,11 +686,18 @@ h5,
 h6,
 p,
 label,
-.btn,
+.btn,*/
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    /*color: #575757!important;*/
+    color:white;
+}
+label {
+    color: black;
+}
+input {
+    border:1px solid black;
 }
 
 .container {
@@ -722,12 +768,12 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
+.h1-black-font {
     color: #333333!important;
 }
 
 h4 {
-    color: #333333!important;
+    color: white!important;
 }
 
 .icons {
@@ -753,8 +799,13 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(165, 147, 99);
     padding: 40px 40px 40px 40px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px rgb(245 229 188);
+}
+.collabandcraft {
+    font-size: 1.2em;
 }
 
 .bold-link {
@@ -771,21 +822,33 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    /*background-color:#F3976C;*/
+    background-color: #80492f;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ebb9a2!important;
+    font-size:1.3em;
+}
+.tc-white-h4 {
+    color:white;
+    font-size: 1.2em;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
+    border-radius: 30px;
+    transform:rotate(0deg) scale(1) translate(0%,0%);
+    transition:700ms;
+    border: none;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #b9450e!important;
     color: #FFFFFF!important;
+    transform:rotate(360deg) scale(1.5) translate(10%, -25%);
+    border:none;
 }
 
 .ltc-white {
