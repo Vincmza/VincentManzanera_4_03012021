@@ -964,6 +964,20 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
+    .col-sm-6 a { /*images au milieu*/
+        display: flex;
+        justify-content: center;
+    }
+    .social { /*icônes réseaux sociaux*/
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .col-sm-4{
+        padding-left: 30px;
+    }
+    .middle_card {
+        padding-left: 0;
+    }
     h1,
     h2,
     h3,
@@ -1102,6 +1116,13 @@ h4 {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+    .col-sm-4 {
+        padding-left: 80px;
+        
+    }
+    .middle_card {
+        padding-left: 0;
     }
 }
 
