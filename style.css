@@ -285,7 +285,14 @@ a:hover {
     margin-right: 0;
     margin-left: 0;
 }
-
+.row--column-display {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.text_adress {
+    margin-top: 20px;
+}
 .intro_sentence {
     font-size: 1.5em;
     padding: 0px 30px;
@@ -839,15 +846,15 @@ h4 {
     background: #F3976C;
     color: #FFFFFF!important;
     border-radius: 30px;
-    transform:rotate(0deg) scale(1) translate(0%,0%);
-    transition:700ms;
+    transform:scale(1) translate(0%,0%);
+    transition:500ms;
     border: none;
 }
 
 .btn-atomic-tangerine:hover {
     background: #b9450e!important;
     color: #FFFFFF!important;
-    transform:rotate(360deg) scale(1.5) translate(10%, -25%);
+    transform:scale(1.4) translate(10%, -15%);
     border:none;
 }
 
