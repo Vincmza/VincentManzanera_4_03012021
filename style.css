@@ -702,9 +702,11 @@ a {
 }
 label {
     color: black;
+    outline-color: rgba(0, 0, 0, .05);
 }
 input {
     border:1px solid black;
+    outline-color: rgba(0, 0, 0, .05);
 }
 
 .container {
@@ -978,6 +980,9 @@ h4 {
     .middle_card {
         padding-left: 0;
     }
+    .row--column-display {
+        padding: 0px 20px;
+    }
     h1,
     h2,
     h3,
@@ -1109,6 +1114,16 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .btn-atomic-tangerine {
+        margin: auto;
+    }
+    .tc-white--sm-12 {
+        text-align: center;
+    }
+    .tc-white--sm-12-p {
+        margin-top: 20px;
+        text-align: center;
     }
 }
 
