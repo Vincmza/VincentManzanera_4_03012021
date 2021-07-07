@@ -866,6 +866,7 @@ h4 {
     color: #FFFFFF!important;
     transform:scale(1.4) translate(10%, -15%);
     border:none;
+    box-shadow: -5px 5px 2px white;
 }
 
 .ltc-white {
