@@ -5256,6 +5256,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav_intro_anim {
     transform:scale(1) translate(0%,0%);
     transition:500ms;
+    font-size: 1.5em;
 }
 .nav_intro_anim:hover {
     transform: scale(1.6) translate(-15%,0%);
@@ -5263,6 +5264,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .contact_intro_anim {
     transform: scale(1) translate(0%,0%);
     transition:500ms;
+    font-size:1.5em;
 }
 .contact_intro_anim:hover{
     transform:scale(1.6) translate(15%,0%);

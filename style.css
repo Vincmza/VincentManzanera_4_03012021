@@ -309,7 +309,7 @@ a:hover {
     font-size:1.4em;
 }
 .intro_sentence {
-    font-size: 1.5em;
+    font-size: 2em;
     padding: 0px 30px;
 }
 .intro_citation {
@@ -327,7 +327,7 @@ a:hover {
     font-size: 1.5em;
 }
 .text-center {
-    font-size: 1.2em;
+    font-size: 1.5em;
     color:#484a4a;
 }
 .row.row-no-gutters > [class^="col-"],
@@ -796,7 +796,7 @@ h3 {
 }
 
 .med-width-whitespace {
-    max-width: 800px;
+    max-width: 900px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
@@ -878,10 +878,11 @@ h4 {
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
-    border-radius: 30px;
+    border-radius: 40px;
     transform:scale(1) translate(0%,0%);
     transition:500ms;
     border: none;
+    font-size: 1.5em;
 }
 
 .btn-atomic-tangerine:hover {
@@ -930,10 +931,12 @@ h4 {
 .tc-white--sm-12 {
     text-align: center;
     color:black;
+    font-size:3em;
 }
 .tc-white--sm-12-p {
     text-align: center;
     color:black;
+    font-size: 2em;
 }
 
 @media (max-width: 1024px) {
